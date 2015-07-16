@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML/CSS/JS Connect four game &mdash; Scott Lepich</title>
+	<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./connect-four.css" type="text/css" media="screen">  
+	<link rel="stylesheet" href="./qunit/qunit.css" type="text/css" media="screen">  
+  </head>
+<body>
+  <div class="page-content">
+		<a href="mailto:scott@lepich.com">scott@lepich.com</a>
+		<h1>Connect Four</h1>
+		<blockquote><strong>Connect Four</strong> (also known as <strong>Four Up</strong>, <strong>Plot Four</strong>, <strong>Find Four</strong>, <strong>Four in a Row</strong>, and <strong>Four in a Line</strong>) is a two-player game in which the players first choose a color and then take turns dropping their colored discs from the top into a seven-column, six-row vertically-suspended grid. The pieces fall straight down, occupying the next available space within the column. The object of the game is to connect four of one's own discs of the same color next to each other vertically, horizontally, or diagonally before one's opponent can do so. There are many variations on the board size, the most commonly used being 7x6, followed by 8x7, 9x7, and 10x7.</blockquote>
+		<div id="connect-four" class="game">
+			<h2>New game:</h2>
+			<ul>
+				<li><button type="button">7x6</button></li>
+				<li><button type="button">8x7</button></li>
+				<li><button type="button">9x7</button></li>
+				<li><button type="button">10x7</button></li>
+			</ul>
+		</div>
+		<!--div id="connect-four-qunit">
+			<h1 id="qunit-header">QUnit Test Suite</h1>  
+			<h2 id="qunit-banner"></h2>  
+			<div id="qunit-testrunner-toolbar"></div>  
+			<h2 id="qunit-userAgent"></h2>  
+			<ol id="qunit-tests"></ol>  
+		</div-->
+	</div>
+	<script type="text/javascript" src="./qunit/qunit.js"></script>  
+	<script type="text/javascript" src="./connect-four.js"></script>  
+	<script type="text/javascript" src="./connect-four-tests.js"></script>
+</body>
+</html>
